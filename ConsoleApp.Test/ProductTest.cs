@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Shouldly;
 
 namespace ConsoleApp.Test
 {
-    [TestClass]
+    [TestClass, ExcludeFromCodeCoverage]
     public class ProductTest
     {
         private const int DummyInt = 1;
