@@ -26,5 +26,13 @@ namespace ConsoleApp
                 Name = name;
             }
         }
+
+        public void ChangeProductDescription(string description)
+        {
+            if (!string.IsNullOrWhiteSpace(description))
+            {
+                Description = description;
+            }
+        }
     }
 }
