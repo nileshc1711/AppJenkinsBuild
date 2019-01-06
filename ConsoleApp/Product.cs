@@ -18,5 +18,13 @@ namespace ConsoleApp
             this.Name = name;
             this.Description = description;
         }
+
+        public void ChangeProductName(string name)
+        {
+            if (!string.IsNullOrWhiteSpace(name))
+            {
+                Name = name;
+            }
+        }
     }
 }
