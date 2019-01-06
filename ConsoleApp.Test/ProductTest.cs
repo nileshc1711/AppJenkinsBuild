@@ -96,5 +96,17 @@ namespace ConsoleApp.Test
             _sut.Description.ShouldBe(changedDescription);
         }
 
+        [TestMethod]
+        public void ChangeDescription_WhenProductNameIsEmpty_ReturnsChangedName()
+        {
+            // Arrange
+            var changedDescription = string.Empty;
+
+            // Act
+            _sut.ChangeProductDescription(changedDescription);
+
+            // Assert
+            _sut.Description.ShouldBe(DummyDescription);
+        }
     }
 }
