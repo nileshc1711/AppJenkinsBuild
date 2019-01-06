@@ -69,5 +69,18 @@ namespace ConsoleApp.Test
             // Assert
             _sut.Name.ShouldBe(changedName);
         }
+
+        [TestMethod]
+        public void ChangeMethod_WhenProductNameIsEmpty_ReturnsSameName()
+        {
+            // Arrange
+            var changedName = string.Empty;
+
+            // Act
+            _sut.ChangeProductName(changedName);
+
+            // Assert
+            _sut.Name.ShouldBe(DummyName);
+        }
     }
 }
