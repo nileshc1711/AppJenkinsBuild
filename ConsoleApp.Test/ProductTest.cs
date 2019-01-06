@@ -5,7 +5,7 @@ using Shouldly;
 
 namespace ConsoleApp.Test
 {
-    [TestClass, ExcludeFromCodeCoverage]
+    [TestClass]
     public class ProductTest
     {
         private const int DummyInt = 1;
