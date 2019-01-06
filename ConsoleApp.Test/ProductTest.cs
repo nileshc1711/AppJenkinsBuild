@@ -58,7 +58,7 @@ namespace ConsoleApp.Test
         }
 
         [TestMethod]
-        public void ChangeMethod_WhenProductNameIsNotEmpty_ReturnsChangedName()
+        public void ChangeName_WhenProductNameIsNotEmpty_ReturnsChangedName()
         {
             // Arrange
             var changedName = "SomeOtherName";
@@ -71,7 +71,7 @@ namespace ConsoleApp.Test
         }
 
         [TestMethod]
-        public void ChangeMethod_WhenProductNameIsEmpty_ReturnsSameName()
+        public void ChangeName_WhenProductNameIsEmpty_ReturnsSameName()
         {
             // Arrange
             var changedName = string.Empty;
