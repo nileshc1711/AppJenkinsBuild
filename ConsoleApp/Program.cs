@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp
 {
-    class Program
+    internal class Program
     {
         private const int ProductId = 1;
         private const string ProductName = "PS4";
