@@ -29,7 +29,6 @@ namespace ConsoleApp
 
         public void ChangeProductDescription(string description)
         {
-            // Test
             if (!string.IsNullOrWhiteSpace(description))
             {
                 Description = description;
