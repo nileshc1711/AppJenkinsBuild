@@ -14,6 +14,7 @@ namespace ConsoleApp
 
         public Product(int id, string name, string description)
         {
+            // this is test.
             this.Id = id;
             this.Name = name;
             this.Description = description;
